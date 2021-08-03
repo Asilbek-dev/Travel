@@ -1,0 +1,126 @@
+.booking_theme p:nth-child(1) {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+}
+.booking_theme p:nth-child(2) {
+    width: 450px;
+    font-family: Volkhov;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    color: #14183E;
+    text-transform: capitalize;
+}
+.booking_text p:nth-child(1) {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+.booking_text span p:nth-child(2) {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;
+    text-transform: none;
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: -10px;
+    width: 400px;
+}
+.booking_card {
+    margin: 160px 0 0 80px;
+    background-color: white;
+    z-index: 9999;
+    border-radius: 24px;
+    padding: 25px;
+    position: absolute !important;
+    box-shadow: 0 15px 25px rgba(0,0, 0, 0.15);
+}
+.booking_card img {
+    border-radius: 24px;
+}
+.booking_card p:nth-child(2) {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    text-transform: capitalize;
+    color: #080809;
+    letter-spacing: 0.015em;
+    margin: 20px 0 10px;
+}
+.booking_card p:nth-child(3) {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #84829A;
+    letter-spacing: 0.005em;
+}
+.booking_card_bottom {
+    margin-top: 10px;
+}
+.booking_card_bottom span {
+    margin-left: 20px !important;
+    color: #84829A;
+    letter-spacing: -0.02em;
+    font-size: 16px;
+    line-height: 124.5%;
+}
+.booking_card_bottom i:nth-child(3) {
+    float: right !important;
+}
+.booking_card_box {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    right: -68px;
+    bottom: 46px;
+    width: 250px;
+    z-index: 9999;
+    box-shadow: 0 15px 25px rgba(0,0, 0, 0.15);
+    border-radius: 20px;
+}
+.booking_card_box p:nth-child(1) {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    letter-spacing: -0.035em;
+    color: #84829A;
+}
+.booking_card_box p:nth-child(2) {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    letter-spacing: -0.015em;
+    color: #080809;
+    margin-top: -10px;
+}
+.booking_card_box p:nth-child(3) {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    letter-spacing: -0.055em;
+    color: #84829A;
+}
+.booking_card_box p:nth-child(3) span {
+    color: #080809;
+}
+.progress {
+    height: 5px !important;
+    margin-top: -8px;
+    width: 150px !important;
+}
+.progress-bar {
+    width: 40% !important;
+}
