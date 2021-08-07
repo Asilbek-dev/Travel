@@ -84,3 +84,9 @@
     line-height: 124.5%;
     color: #5E6282;
 }
+
+@media screen and (max-width:992px) {
+    #footer {
+        overflow: hidden;
+    }
+}

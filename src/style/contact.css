@@ -7,7 +7,7 @@
     text-align: center !important;
 }
 .contact p {
-    width: 800px;
+    width: 63%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -68,4 +68,34 @@
 }
 .contact_messanger svg {
     margin-top: 12px;
+}
+
+
+@media screen and (max-width: 992px) {
+    #contact{
+        overflow: hidden;
+    }
+    .contact p {
+        width: 80%;
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .contact_btn {
+        width: 140px;
+        margin-top: 20px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact img:nth-child(5) {
+        display: none;
+    }
+    .contact img:nth-child(6) {
+        display: none;
+    }
+    .contact_messanger {
+        display: none;
+    }
+    .contact input {
+        width: 55% !important;
+    }
 }

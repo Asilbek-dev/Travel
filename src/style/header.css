@@ -25,8 +25,8 @@
 }
 .background_image img{
     position: absolute;
-    width: 720px;
-    height: 600px;
+    width: 47.5%;
+    height: 100%;
     top: 0;
     right: 0;
     z-index: -1;
@@ -80,5 +80,69 @@
     margin-top: 10px !important;
 }
 .header_image img {
-    width: 630px;
+    width: 97.3%;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    #header{
+        overflow: hidden;
+    }
+    .navbar {
+        position: fixed !important;
+        display: block !important;
+        text-align: center;
+        background-color: white;
+        width: 100%;
+        top: 0;
+        right: 120px;
+        padding: 30px 0 !important;
+        transition: all .5s ease-in-out;
+        left: 0;
+    }
+    .fa-times {
+        position: fixed !important;
+        top: 30px;
+        right: 50px;
+    }
+    .navbar li {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav1 {
+        transform: translateX(-100%);
+    }
+    .nav2 {
+        transform: translateX(0);
+    }
+    .header_text p:nth-child(1){
+        font-size: 12px;
+    }
+    .header_text p:nth-child(2) {
+        width: 90%;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .header_text p:nth-child(3) {
+        width: 100%;
+        font-size: 14px;
+    }
+    .btn_cricle {
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .btn_cricle svg {
+        margin-top: 0px !important;
+    }
+    .header_play span {
+        float: right;
+        margin-top: -25px;
+        margin-right: 30px !important;
+    }
+    .header_image img {
+        margin-top: 40px;
+    }
 }

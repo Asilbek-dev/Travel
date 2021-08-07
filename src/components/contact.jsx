@@ -6,7 +6,7 @@ import { MailOutlined } from "@ant-design/icons";
 export default function Contact() {
   return (
     <>
-      <div className="container">
+      <div className="container" id = "contact">
         <div
           className="contact"
           style={{
@@ -20,7 +20,7 @@ export default function Contact() {
           </p>
           <br />
           <br />
-          <div className="d-flex justify-content-center align-items-center">
+          <div className="d-lg-flex d-block  justify-content-center align-items-center">
             <Input
               className="contact_input"
               placeholder="Your email"

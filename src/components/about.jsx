@@ -31,9 +31,9 @@ export default function About() {
 
   return (
     <>
-      <div className="container">
+      <div className="container" id = "about">
         <div className="row">
-          <div className="col-6 about_theme">
+          <div className="col-lg-6 col-12 about_theme">
             <p>testimonials</p>
             <Slider dots>
               <div>
@@ -47,7 +47,7 @@ export default function About() {
               </div>
             </Slider>
           </div>
-          <div className="col about_carousel mb-5">
+          <div className="col-lg-6 col-12 about_carousel mb-5">
             <div className= {count ? "about_card" : "carousel_card1 about_card"}>
               <p>
                 “On the Windows talking painted pasture yet its express parties
@@ -77,8 +77,8 @@ export default function About() {
             <img src="./images/Image 5.png" alt="" />
           </div>
         </div>
-        <div className="row my-5">
-          <div className="col-12 d-flex justify-content-around">
+        <div className="row my-5 ">
+          <div className="col-12 about_logos d-flex flex-wrap justify-content-around">
             {images.map(({ image }) => (
               <div className="about_logo mt-5">
                 <img src={image} alt="" />

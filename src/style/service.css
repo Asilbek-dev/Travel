@@ -22,7 +22,7 @@
 }
 .service_card {
     position: relative;
-    width: 23% !important;
+    /* width: 23% !important; */
     height: 314px;
     background: #ffffff;
 }
@@ -64,4 +64,19 @@
 .service_card:hover img:nth-child(4) {
     transition: all .5s ease-in-out !important;
     display: block;
+}
+
+@media screen and (max-width: 992px) {
+    #service {
+        overflow: hidden;
+    }
+    .service_theme p:nth-child(1){
+        font-size: 14px;
+    }
+    .service_theme p:nth-child(2){
+        font-size: 30px;
+    }
+    .service_theme img {
+        display: none;
+    }
 }

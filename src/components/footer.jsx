@@ -4,32 +4,32 @@ import "../style/footer.css";
 export default function Footer() {
   return (
     <>
-      <div className="container mt-5 py-5">
-        <div className="d-flex align-items-start justify-content-around">
-          <div className="footer_logo">
+      <div className="container mt-5 py-5" id = "footer">
+        <div className="d-flex flex-wrap align-items-start justify-content-around">
+          <div className="footer_logo px-2"> 
             <p>Jadoo.</p>
             <p>Book your trip in minute, get full </p>
             <p>Control for much longer.</p>
           </div>
-          <div className="footer_text">
+          <div className="footer_text px-2"> 
             <p>Company</p>
             <p>About</p>
             <p>Careers</p>
             <p>Mobile</p>
           </div>
-          <div className="footer_text">
+          <div className="footer_text px-2"> 
             <p>Contact</p>
             <p>Help/FAQ</p>
             <p>Press</p>
             <p>Affilates</p>
           </div>
-          <div className="footer_text">
+          <div className="footer_text px-2"> 
             <p>More</p>
             <p>Airlinefees</p>
             <p>Airline</p>
             <p>Low fare tips</p>
           </div>
-          <div className="footer_right mt-4">
+          <div className="footer_right  mt-4 px-2">
             <div className="footer_messanger d-flex align-items-center">
               <div className="footer_cricle">
                 <a href="#">

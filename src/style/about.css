@@ -65,6 +65,7 @@
     left: 40px;
     box-shadow: none;
     border: .5px solid #F4F4F4;
+    transition: .5s all linear;
 }
 .carousel_card2 {
     z-index: 9999 !important;
@@ -145,4 +146,47 @@
 }
 .about_logo:hover img {
     filter: grayscale(0);
+}
+
+
+@media screen and (max-width: 992px) {
+    #about {
+        overflow: hidden;
+    }
+    .about_theme > p:nth-child(1) {
+        font-size: 14px;
+    }
+    .about_theme > div p {
+        width: 90%;
+        font-size: 30px;
+    }
+    .about_carousel {
+        margin-top: 150px !important;
+    }
+    .about_card p:nth-child(1) {
+        width: 96%;
+        font-size: 14px;
+    }
+    .about_card p:nth-child(3) {
+        font-size: 16px;
+    }
+    .about_card p:nth-child(4) {
+        font-size: 12px;
+    }
+    .about_card1 p:nth-child(1) {
+        width: 96%;
+        font-size: 14px;
+    }
+    .about_card1 p:nth-child(3) {
+        font-size: 16px;
+    }
+    .about_card1 p:nth-child(4) {
+        font-size: 12px;
+    }
+    .about_logos {
+        margin-top: 280px !important;
+    }
+    .about_carousel img {
+        display: none;
+    }
 }

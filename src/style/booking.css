@@ -6,7 +6,7 @@
     color: #5E6282;
 }
 .booking_theme p:nth-child(2) {
-    width: 450px;
+    width: 60.5%;
     font-family: Volkhov;
     font-weight: bold;
     font-size: 50px;
@@ -32,7 +32,7 @@
     font-weight: normal;
     margin-left: 30px;
     margin-top: -10px;
-    width: 400px;
+    width: 70%;
 }
 .booking_card {
     margin: 160px 0 0 80px;
@@ -78,12 +78,13 @@
     float: right !important;
 }
 .booking_card_box {
+    display: flex;
     position: absolute;
     background-color: white;
     padding: 10px;
     right: -68px;
     bottom: 46px;
-    width: 250px;
+    width: 67%;
     z-index: 9999;
     box-shadow: 0 15px 25px rgba(0,0, 0, 0.15);
     border-radius: 20px;
@@ -119,8 +120,38 @@
 .progress {
     height: 5px !important;
     margin-top: -8px;
-    width: 150px !important;
+    width: 194% !important;
 }
 .progress-bar {
     width: 40% !important;
+}
+
+
+@media screen and (max-width:992px) {
+    #booking{
+        overflow: hidden;
+    }
+    .booking_theme p:nth-child(2) {
+        width: 70%;
+        font-size: 24px;
+        line-height: 110%;
+    }
+    .booking_card p:nth-child(2) {
+        font-size: 16px;
+        line-height: 50%;
+        width: 100% !important;
+    }
+    .booking_card {
+        margin: 0 !important;
+    }
+    .booking_card img {
+        width: 98% !important;
+    }
+    .booking_card p:nth-child(3)  {
+        font-size: 14px;
+    }
+    .booking_card_box {
+        display: none !important;
+    }
+    
 }

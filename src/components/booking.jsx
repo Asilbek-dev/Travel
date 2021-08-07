@@ -4,9 +4,9 @@ import "../style/booking.css";
 export default function Booking() {
   return (
     <>
-      <div className="container mt-5">
-        <div className="row">
-          <div className="col-7 booking_theme mt-5">
+      <div className="container mt-5" id = "booking">
+        <div className="row mt-4">
+          <div className="col-lg-7 col-12 booking_theme mt-5">
             <p>Easy and Fast</p>
             <p>Book your next trip in 3 easy steps</p>
             <div className="booking_text">
@@ -134,7 +134,7 @@ export default function Booking() {
             </div>
           </div>
           <div
-            className="col position-relative"
+            className="col-lg-5 col-12 position-relative"
             style={{
               background: "url('./images/Group 589.png')",
               opacity: 0.8,
@@ -279,7 +279,7 @@ export default function Booking() {
                   </svg>
                 </i>
               </div>
-              <div className="booking_card_box d-flex align-items-start">
+              <div className="booking_card_box align-items-start">
                 <img src="./images/Mask Group.png" alt="" />
                 <div className="booking_box_text mx-2">
                   <p>Ongoing</p>

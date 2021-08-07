@@ -28,7 +28,7 @@ const card = [
 export default function Destination() {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-5" id = "destination">
         <div className="row">
           <div className="col destination_theme mt-5">
             <p>top selling</p>
@@ -37,7 +37,7 @@ export default function Destination() {
         </div>
         <div className="row destination_cards">
           {card.map(({ image, text1, number, icon, text2 }) => (
-            <div className="col-4 destination_card mt-5">
+            <div className="col-lg-4 col-12 destination_card mt-5">
               <img src={image} alt="" />
               <div className="destination_card_text">
                 <p>{text1}</p>
